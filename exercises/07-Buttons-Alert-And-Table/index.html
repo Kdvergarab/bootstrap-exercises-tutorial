@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <title>07 Buttons, Alert and Table</title>
-    </head>
-    <body>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<title>07 Buttons, Alert and Table</title>
+	</head>
 
-    </body>
+	<body>
+		<div class="container row">
+			<div class="col-6 h-100 p-5 bg-light border rounded-3">
+				<h2>Add borders</h2>
+				<p>
+					Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at
+					the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.
+				</p>
+				<button class="btn btn-primary btn-lg bg-success" type="button">YES</button>
+				<button class="btn btn-primary btn-lg bg-danger" type="button">NO</button>
+			</div>
+
+			<div class="col-6">
+				<div class="alert alert-warning" role="alert">
+					A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+				</div>
+
+				<table class="table">
+					<thead>
+						<tr>
+							<th scope="col">Fisrtname</th>
+							<th scope="col">Lastname</th>
+							<th scope="col">Email</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Jhon</td>
+							<td>Don</td>
+							<td>jhon@example.com</td>
+						</tr>
+						<tr>
+							<td>Mary</td>
+							<td>Moe</td>
+							<td>mary@example.com</td>
+						</tr>
+						<tr>
+							<td>July</td>
+							<td>Dooley</td>
+							<td>July@example.com</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</body>
 </html>
